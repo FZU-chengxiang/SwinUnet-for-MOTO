@@ -1,0 +1,14 @@
+Datasets can be downloaded at:
+
+https://drive.google.com/drive/folders/1k_0d37k8Wf572-9NU16IqXXfoFn7MJJ_?usp=sharing
+
+Use numpy.load to load the .npy file
+1~2 channels are the  displacement fields in X and Y direction
+3 channel is the volume fraction field
+4 channel is the stress fraction field
+5~8 channels are the  strain fields of  sigma_x, sigma_y and tau_xy
+9~10 channels are the  boundary condition in X and Y direction
+11~12 channels are the  force in X and Y direction
+The last channel is the label
+
+The messages used in our research can be found in the paper.
